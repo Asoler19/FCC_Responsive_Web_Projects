@@ -1,0 +1,96 @@
+.container {
+/*  layout*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/*  typogrophy*/
+  font-family: 'Josefin Sans', sans-serif, serif;
+  text-align: center;
+}
+
+#image {
+/*  layout*/
+  display: block;
+/* Box Model */
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  /* Box Model */
+  margin-top: 1em;
+  /*  typogrophy*/
+  text-align: center;
+  font-style: italic;
+}
+
+#img-div {
+  /*  layout*/
+  align-self: center;
+  /* Box Model */
+  padding: 1vh 1vw;
+  
+ 
+}
+
+#tribute-info p {
+  /* Box Model */
+  padding-left: 2vw;
+  padding-right: 2vw;
+  /*  typogrophy*/
+  text-align: justify;
+}
+
+
+
+p {
+	/*  typogrophy*/
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+
+
+aside {
+	/*  layout*/
+	float: right;
+	/* Box Model */
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    /*  visual*/
+    color: #29627e;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    /*  typogrophy*/
+    font-style: italic;
+
+}
+
+aside > p {
+	/* Box Model */
+    margin: .5rem;
+}
+
+p {
+	/*  typogrophy*/
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/* WIKI SECTION */
+a {
+  /* Box Model */
+  font-weight: 800;
+  text-decoration: none;
+}
+
+a:enabled {
+	/*  visual*/
+  color: #29627e;
+}
+
+a:hover {
+	/*  typogrophy*/
+  text-decoration: underline;
+}
